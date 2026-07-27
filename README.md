@@ -15,5 +15,5 @@ A discreet, background-running Windows assistant powered by the Google Gemini AP
 4) Change the `model_name` variable to the one available for your account.
 5) Run the script and you're ready to go!
 6) To use it, simply copy your query to the clipboard (`Ctrl+C`), and then press the hotkey (`Ctrl+Shift+Z`).
-7) If you want to see full Gemini's response just use `Ctrl+V` in any text space (like notebook).
+7) (Optional) If you want to see full Gemini's response just use `Ctrl+V` in any text space (like notebook).
 
