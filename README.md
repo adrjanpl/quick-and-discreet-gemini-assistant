@@ -1,10 +1,17 @@
 # Quick and discreet gemini assistant
 
+A discreet, background-running Windows assistant powered by the Google Gemini API. This tool allows you to quickly analyze copied text and displays short, concise answers via a customizable notification.
 
-Dyskretny asystent oparty na API Google Gemini, działający w tle systemu Windows. Narzędzie pozwala na szybkie analizowanie skopiowanego tekstu i wyświetlanie krótkich, zwięzłych odpowiedzi we własnym, konfigurowalnym powiadomieniu.
+# Features
+* **Background operation:** A global hotkey (`Ctrl+Shift+Z`) triggers text analysis from within any application.
+* **Clipboard integration:** The script automatically fetches the text from your clipboard and copies the generated response back to it.
+* **Rate Limit Handling:** Built-in safeguards against multiple and accidental keystrokes.
+* **System Instructions:** A pre-configured system prompt that forces ultra-short and highly specific responses from the model.
 
-# Funkcje
-* **Działanie w tle:** Globalny skrót klawiszowy (`Ctrl+Shift+Z`) wyzwala analizę tekstu w dowolnej aplikacji.
-* **Integracja ze schowkiem:** Skrypt automatycznie pobiera tekst ze schowka i wkleja do niego gotową odpowiedź.
-* **Rate Limit Handling:** Wbudowane zabezpieczenia przed wielokrotnym wciśnięciem klawisza.
-* **System Instructions:** Zaprogramowany prompt systemowy wymuszający ultrakrótkie i konkretne odpowiedzi modelu.
+# Instructions
+1) Generate an API key at [aistudio.google.com](https://aistudio.google.com/). Paste it into the `apikey` variable in the script.
+2) Check which model is available for your key by running the `ModelCheck` script or by visiting [https://aistudio.google.com/rate-limit?timeRange=last-hour](https://aistudio.google.com/rate-limit?timeRange=last-hour).
+3) (Optional) Modify the content of the `instruction` variable if you need to adjust the AI's behavior.
+4) Change the `model_name` variable to the one available for your account.
+5) Run the script and you're ready to go!
+6) To use it, simply copy your query to the clipboard (`Ctrl+C`), and then press the hotkey (`Ctrl+Shift+Z`).
