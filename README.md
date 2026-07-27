@@ -1,1 +1,1 @@
-# quick-and-discreet-gemini-assistant
+# Quick and discreet gemini assistant
