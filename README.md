@@ -9,6 +9,7 @@ A discreet, background-running Windows assistant powered by the Google Gemini AP
 * **System Instructions:** A pre-configured system prompt that forces short and specific responses from the model.
 
 # Instructions
+0) Install Python libraries listed in `requirements.txt` file.
 1) Generate an API key at [aistudio.google.com](https://aistudio.google.com/). Paste it into the `apikey` variable in the `QuickAssistant` script.
 2) Check which model is available for your key by running the `ModelCheck` script or by visiting [https://aistudio.google.com/rate-limit?timeRange=last-hour](https://aistudio.google.com/rate-limit?timeRange=last-hour).
 3) (Optional) Modify the content of the `instruction` variable if you need to adjust the AI's behavior.
