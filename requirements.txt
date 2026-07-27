@@ -1,0 +1,4 @@
+google-generativeai
+keyboard
+pyperclip
+plyer
